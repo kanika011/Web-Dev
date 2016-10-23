@@ -1,10 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Page2</title>
+		<link rel ="stylesheet" type = "text/css" href = "Page1.css">
+		
+	</head>
 
+<body>
+	<div class="left_page">
+		<pre> 
+		Home | <img src="q.jpg" height="13" width="13"/> Help | Logout <br>
+		<img src="i.jpg" height="17" width="17"/> Learn more about these topics
+		</pre>		
+	</div>
+	<h1>Sponsors, Stanford Investigators & Authors</h1>
+	<hr>
+	<table>
+		<caption align="left">Editing:Mediation and Hypnosis for Chronic Depression Mood</caption>
+		<thead>
+			<th>Data Category</th>
+			<th>Data Entry</th>
+			<th>Requiring Authority</th>
+		</thead>
+		<tr>
+			<td>Lead Sponsor</td>
+			<td>
+				<input type="radio" name="Stanford" value="Stanford">Stanford University<br>
+				<input type="radio" name="Other" value="Other" checked="true"> Other <input type="text">
+			</td>
+			<td>CT.gov</td>
+			<td><pre>The Stanford Lead Sponsor is defined by
+one or more of the following 
+-The Stanford Investigator Holds the
+IND/IDE
+-The Stanford PI has initiated the study 
+and is responsible for the oversight and 
+management
+-Stanford is the coordinating center for a
+multi-center trial
+			
+Example for 'Other': Bristal Meyers Squibb, Washington University
+			</pre></td>
+		</tr>
+		<tr>
+			<td>Collaborators</td>
+			<td>Add a Collaborator<br>
+			<input type="text"><br>
+			<a href="#">add another</a></td>
+			<td>OPT</td>
+			<td> <pre>Enter all collaborating sponsors and sites
+(eg., Yale, Genentech) outside of Stanford.
+			</pre>
+			</td>
+		</tr>
+		<tr>
+			<td>Stanford Investigators</td>
+			<td> <pre>Investigator(s)          Role           
+Daid Spiegel            Principal Investigator     <a href="#">delete</a>
+Lisa Deidre Butler       Study Director            <a href="#">delete</a>
+
+
+
+Add an Investigator
+
+Choose a Role             Enter a last name
+<select><option name="Inv">Principal Investigator </option></select>     <input type="text">
+                          Enter first name(Optional):
+                          <input type="text">
+                          look up
+  </pre>
+			</td>
+			<td>
+			STAN
+			</td>
+			<td> List PI and all co-investigators at Stanford </td>
+		</tr>
+		<tr>
+		<td>Web Listing Editors</td>
+		<td> Editor(s)<br><pre>Linda S.Walker                   <a href="#">delete</a>
+Hodge Fitzpatrick Wasson         <a href="#">delete</a>
+Cynthia F. Willson               <a href="#">delete</a></pre>
+		<br> <i>Investigators automatically included</i>
+		<br> Add a Web Listing Editor
+		<br>
+		<pre>Enter a last name:         Optional first name:
+<input type="text">  <input type="text">
+look up
+			  </pre>
+			  </td>
+			  <td>STAN</td>
+			  <td><pre>List the individuals you wish to have access
+to modify this study.
+You cannot delete yourself as an author.</pre></td>
+			  </tr>
+	</table>
+	<footer><input type="text" class="footer_box"/>= required field
+		<br>
+		<input type="text" class= "footer_box"/>= optional field
+		
+		<div class="left_page">
+		<pre> Cancel   Save   Go to Summary    <a href="Page3.html">Next Step</a> </pre>   
+		<select  class="drp_right">
+				<option value="Choose One...">Choose One...</option>
+				</select>
+		</div>
+		</footer>
 </body>
 </html>
