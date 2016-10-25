@@ -81,3 +81,11 @@ li:hover li a:hover {
     top: 80px;
     right: 0px;
 }
+th {
+    text-align:left;
+    font-size: 18px;
+}
+#inside_rows{
+	padding: 0 15px 0 15px;
+	text-align: right;
+}
