@@ -6,23 +6,29 @@
 		<link rel ="stylesheet" type = "text/css" href = "Page1.css">
 	</head>
 <body>
-	<div class="left_page">
-		<pre> 
-		Home | <img src="q.jpg" height="13" width="13"/> Help | Logout <br>
-		<img src="i.jpg" height="17" width="17"/> Learn more about these topics
-		</pre>		
-	</div>
+	 <ul id="menu"> 
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Help</a></li>
+		<li><a href="#">Logout</a></li>
+		<br><br><br><li style="padding:0.5px;
+		background-color:#D3D3D3;"><img src="i.jpg" height="20px" width="20px">Learn more about these topics</li></ul>
+<br><br><br>
 		<h1>Citations & Links</h1>
 	<hr>
 	<table>
-		<caption align="left">Editing: My Brief Title</caption>
+	<col width="380">
+	<col width="400">
+	<col width="400">
+	<col width="400">
+		<caption align="left" style="border-bottom: 1px solid #000;">Editing: My Brief Title</caption>
 		<thead>
-			<th>Data Category</th>
-			<th>Data Entry</th>
-			<th>Requiring Authority</th>
+			<th style="border-bottom: 1px solid #000; padding:1em;">Data Category</th>
+			<th style="border-bottom: 1px solid #000; padding:1em;">Data Entry</th>
+			<th style="border-bottom: 1px solid #000; padding:1em;">Requiring Authority</th>
+			<th style="border-bottom: 1px solid #000; padding:1em;"></th>
 		</thead>
 		<tr>
-			<td>PubMed Citations
+			<td align="top">PubMed Citations
 			</td>
 			<td> 
 			Add Citation<br><br>
@@ -33,12 +39,12 @@
 			<br>
 			<a href="#">add another</a></td>
 			<td> OPT</td>
-			<td>Search PubMed</td>
+			<td style="color:blue;">Search PubMed</td>
 </tr>
 		<tr>
 		<td>Links</td>
-		<td> Add Link<br> URL:<br><input type="text" value="http://"><br>
-		Description<br><input type="text"><br><a href="#">add another</a>
+		<td> Add Link<br> URL:<br><input type="text" value="http://" style="width: 300px;"><br>
+		Description<br><input type="text" style="width: 300px;"><br><a href="#">add another</a>
 </td>
 <td></td>
 <td>Provide pointers to web pages directly <br> relevant to the protocol. 
@@ -58,16 +64,18 @@ Link URL must be full address; it must<br>include "http://".
 
 
 </table>	
-		<footer><input type="text" class="footer_box"/>= required field
+<br><br><footer><input type="text" class="footer_box" style="background-color:blue;"/>= required field
 		<br>
-		<input type="text" class= "footer_box"/>= optional field
+		<input type="text" class= "footer_box" style="border:1px solid blue;"/>= optional field
 		
-		<div class="left_page">
-		<pre> Cancel   Save   Go to Summary    <a href="Page13.html">Next Step</a> </pre>   
-		This is the final step in the sequence.<br><select  class="drp_right">
-				<option value="Select Step...">Choose One...</option>
-				</select>
-		</div>
-		</footer>
+		<ul id="page13_block"> 
+		<li><a href="#">Cancel</a></li>
+		<li><a href="#">Save</a></li>
+		<li><a href="#">Go to Summary</a></li>
+		<li><a href="Page14.html">Next Step</a></li>
+		<br><br>This is the final step in the sequence.<br><br><select  class="drp_right">
+				<option>Select Step...</option>
+				</select><br>
+				</footer>
 </body>
 </html>
