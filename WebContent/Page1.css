@@ -90,9 +90,17 @@ th {
 	text-align: right;
 }
 #last_page_block{
-	position : relative;
-    bottom : 0;
-    right  :   0;
+ position:relative;
+ top:20%;
+ left:85%;
+}
 
+#drp{
+	 border-radius: 25px;
+    padding: 5px; 
+    width: 200px;
+    height: 30px; 
+	color:blue;
+	background-color:#D3D3D3;
 }
 ​
